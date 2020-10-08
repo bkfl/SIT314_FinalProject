@@ -1,0 +1,19 @@
+{
+  "name": "mqtt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mqtt-server.js",
+  "scripts": {
+    "start": "node mqtt-server.js",
+    "dev": "nodemon mqtt-server.js"
+  },
+  "author": "Brenton Fleming",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "mqtt": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

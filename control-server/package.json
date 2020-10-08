@@ -1,0 +1,20 @@
+{
+  "name": "control-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "control-server.js",
+  "scripts": {
+    "start": "node control-server.js",
+    "dev": "nodemon control-server.js"
+  },
+  "author": "Brenton Fleming",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "mqtt": "^4.2.1"
+  }
+}
